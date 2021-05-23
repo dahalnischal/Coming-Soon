@@ -79,7 +79,7 @@ body {
   margin-top: 50px;
 }
 .wrapper .title {
-  font-size: 6.5rem;
+  font-size: 6rem;
   font-weight: 900;
 }
 .wrapper .title span {
@@ -257,15 +257,29 @@ body {
   .count-down .clone {
     display: none;
   }
-}
-@media (max-width: 340px) {
-  .wrapper {
-    margin: 8rem;
+  .icons a {
+    margin: 0 15px;
   }
+}
+@media (max-width: 460px) {
   .wrapper .count-down {
     height: 30px;
   }
   .wrapper .count-down .timer {
     width: 30px;
+  }
+  .icons {
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .icons a {
+    margin: 20px;
+  }
+}
+@media (max-width: 320px) {
+  .icons a {
+    margin: 15px;
   }
 }
