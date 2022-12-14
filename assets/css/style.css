@@ -34,7 +34,14 @@ body {
   margin-right: 25px;
   margin-top: 25px;
 }
-
+.mode-wrapper-down {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  z-index: 10;
+  margin-right: 25px;
+  margin-bottom: 25px;
+}
 .mode {
   height: 50px;
   width: 50px;
@@ -271,6 +278,14 @@ body {
   .wrapper {
     margin-top: 20px;
   }
+  .mode-wrapper-down {
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+  .mode-wrapper {
+    margin-right: 0px;
+    margin-top: 10px;
+  }
   .wrapper .count-down {
     height: 30px;
   }
@@ -292,18 +307,6 @@ body {
   }
 }
 @media (max-width: 320px) {
-  /* .wrapper .title {
-    font-size: 3rem;
-    font-weight: 600;
-  } */
-  .mode-wrapper {
-    display: none;
-    /* position: fixed;
-    bottom: 0;     
-    left: 0;
-    margin-right: 25px;
-    margin-top: 25px; */
-  }
   .icons a {
     margin: 15px;
   }
