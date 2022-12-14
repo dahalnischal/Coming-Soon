@@ -228,6 +228,12 @@ body {
   .wrapper .count-down {
     height: 80px;
   }
+
+  .wrapper .title {
+    font-size: 5rem;
+    font-weight: 800;
+  }
+
   .wrapper .count-down .timer {
     width: 80px;
   }
@@ -262,8 +268,15 @@ body {
   }
 }
 @media (max-width: 460px) {
+  .wrapper {
+    margin-top: 20px;
+  }
   .wrapper .count-down {
     height: 30px;
+  }
+  .wrapper .title {
+    font-size: 4rem;
+    font-weight: 700;
   }
   .wrapper .count-down .timer {
     width: 30px;
@@ -279,6 +292,18 @@ body {
   }
 }
 @media (max-width: 320px) {
+  /* .wrapper .title {
+    font-size: 3rem;
+    font-weight: 600;
+  } */
+  .mode-wrapper {
+    display: none;
+    /* position: fixed;
+    bottom: 0;     
+    left: 0;
+    margin-right: 25px;
+    margin-top: 25px; */
+  }
   .icons a {
     margin: 15px;
   }
